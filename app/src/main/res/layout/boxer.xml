@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:id="@+id/con"
+    android:layout_margin="10dp"
+    android:padding="2dp"
+    android:background="#91752fb7">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Boxer Name"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:background="#35a472"
+        android:textColor="#fff"
+        android:id="@+id/boxerName"/>
+
+    <TextView
+        android:id="@+id/boxerAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#35a472"
+        android:text="Boxer Age"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boxerName" />
+
+</android.support.constraint.ConstraintLayout>
